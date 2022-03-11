@@ -1,0 +1,16 @@
+{
+  "name": "tailwind_installation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/style.css -o dist/output.css --watch",
+    "publish": "npx tailwindcss -i ./src/style.css -o dist/build.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
